@@ -80,3 +80,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CLIENT_ID = 'client_id'
+CLIENT_SECRET = 'client_secret' 
+REDIRECT_URI = 'http://127.0.0.1:8000/job/register'
